@@ -6,7 +6,7 @@ A simple chatbot application built with Django and integrated AI interaction log
 
 ## Demo Screenshot
 
-![Chat Interface](Images/l1.png)
+![Chat Interface](Images/I1.png)
 
 ---
 
@@ -22,7 +22,7 @@ A simple chatbot application built with Django and integrated AI interaction log
 
 ### Chat Page
 
-![Chat Page](Images/l2.png)
+![Chat Page](Images/I2.png)
 
 ...
 
