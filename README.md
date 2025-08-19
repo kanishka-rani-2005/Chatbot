@@ -54,9 +54,9 @@ cd Chatbot
 2. Create and activate a virtual environment:
    ```bash
     python -m venv venv
-     # On Windows
+    # On Windows
     venv\Scripts\activate
-   # On macOS/Linux
+    # On macOS/Linux
     source venv/bin/activate
     ```
 3. Install dependencies:
@@ -75,11 +75,11 @@ cd Chatbot
 
 5. Run migrations
    ```bash
-      python manage.py migrate
+   python manage.py migrate
    ```
 6. Start the development server:
    ```bash
-       python manage.py runserver
+   python manage.py runserver
     ```
 7. #### Open your browser and go to http://127.0.0.1:8000
 
