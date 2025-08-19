@@ -6,8 +6,25 @@ A simple chatbot application built with Django and integrated AI interaction log
 
 ## Demo Screenshot
 
-![Chat Interface](Images/I1.png)
+![Chat Interface](Images/l1.png)
 
+---
+
+## Screenshots
+
+### Login Page
+
+![Login Page](Images/Login.png)
+
+### Register Page
+
+![Register Page](Images/Register.png)
+
+### Chat Page
+
+![Chat Page](Images/l2.png)
+
+...
 
 
 ## Features
@@ -15,7 +32,6 @@ A simple chatbot application built with Django and integrated AI interaction log
 - User authentication (login/register)
 - Chat interface with AI-powered responses
 - Stores chat history in the database
-- Secret keys handled securely (make sure to use environment variables!)
 
 ## Getting Started
 
