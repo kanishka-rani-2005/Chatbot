@@ -23,7 +23,7 @@ from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.models import User
 # Create your views here.
 
-GROQ_API_KEY ="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"
+GROQ_API_KEY = os.getenv('GROQ_API_KEY')
 API_URL = 'https://api.groq.com/openai/v1/chat/completions'
 
 def ask_ai(message):
