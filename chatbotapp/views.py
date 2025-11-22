@@ -1,6 +1,10 @@
 <<<<<<< HEAD
 from django.shortcuts import render
 from django.http import JsonResponse
+import os
+from dotenv import load_dotenv
+
+load_dotenv()   # Load .env file
 
 # Create your views here.
 
@@ -19,8 +23,7 @@ from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.models import User
 # Create your views here.
 
-
-GROQ_API_KEY = 'REMOVED_SECRET'
+GROQ_API_KEY = os.getenv('GROQ_API_KEY')
 API_URL = 'https://api.groq.com/openai/v1/chat/completions'
 
 def ask_ai(message):
